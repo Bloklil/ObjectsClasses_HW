@@ -4,9 +4,6 @@ public class Book {
     private int publicationYear;
 
     public Book(String title, Author author, int publicationYear) {
-        if (author == null) {
-            throw new IllegalArgumentException("Автор не может быть null");
-        }
         this.title = title;
         this.author = author;
         this.publicationYear = publicationYear;
